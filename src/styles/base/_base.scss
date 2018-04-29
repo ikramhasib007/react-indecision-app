@@ -18,3 +18,16 @@ button {
 button:disabled {
     cursor: default;
 }
+.back-button {
+    top: 10px;
+    left: 100px;
+    font-size: 50px;
+    color: $blue;
+}
+.back-button:hover {
+    color: $light-blue;
+}
+.header-orientation {
+    display: flex;
+    justify-content: space-between;
+}
